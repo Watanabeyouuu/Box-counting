@@ -91,7 +91,7 @@ def Least_squares(x, y):
 
 
 if __name__ == "__main__":
-    o = cv2.imread("./text_img/te.png", cv2.IMREAD_GRAYSCALE)
+    o = cv2.imread("./text_img/Qx.png", cv2.IMREAD_GRAYSCALE)
     thresh = cv2.threshold(o, 100, 255, cv2.THRESH_BINARY_INV)[1]
     cv2.imshow('Original', thresh)
     # thresh = cv2.resize(thresh,None,fx=0.5,fy=0.5)
